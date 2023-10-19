@@ -1,8 +1,10 @@
+
+//Definindo as constantes
 const nickname = ("Pikaxu")
 
-const xp = 5200
+const xp = 7150
 
-
+//Definindo o nível
 let nivel = ""
 
 if (xp < 1000) {
@@ -37,8 +39,8 @@ if (xp < 1000) {
 
   nivel = "Radiante"
 
-} 
+}
 
-  
+//Mensagem de saída
 
-console.log(`O Herói de nome ${nickname} está no nível de ${nivel}`); 
+console.log(`O Herói de nome ${nickname} está no nível de ${nivel}`)
