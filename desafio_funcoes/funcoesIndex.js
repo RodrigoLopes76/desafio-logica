@@ -1,9 +1,8 @@
 
-
+let ranking = (100, 2)
 function rankear(vitorias, derrotas){
     return vitorias - derrotas
 
-let ranking = (20, 10)
 }
 if (ranking < 10) {
     rankeadas = "Ferro"
