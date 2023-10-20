@@ -1,9 +1,15 @@
 
+//Definindo a função
 
 function rankear(vitorias, derrotas){
-    return vitorias - derrotas  
+    return vitorias - derrotas
 }
-const ranking = rankear(5, 2)
+
+//Definindo a constante
+
+const ranking = rankear(25, 14)
+
+//Condições de ranking
 
 if (ranking < 10) {
     rankeadas = "Ferro"
@@ -20,4 +26,6 @@ if (ranking < 10) {
 }else {
     rankeadas = "Imortal"
 }
+
+//Mensagem de saída
 console.log(`O Herói tem saldo de vitórias de ${ranking} está no nível ${rankeadas}`)
